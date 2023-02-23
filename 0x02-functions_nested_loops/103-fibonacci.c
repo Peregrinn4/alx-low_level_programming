@@ -14,11 +14,11 @@ int main(void)
 	k = 2;
 	sum = 0;
 
-	for (i = 1; i <= 33; ++1)
+	for (i = 1; i <= 33; ++i)
 	{
 		if (j < 4000000 && (j % 2) == 0)
 		{
-			sum = sum +j;
+			sum = sum + j;
 		}
 		next = j + k;
 		j = k;
