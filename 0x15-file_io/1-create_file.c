@@ -3,12 +3,11 @@
 /**
  * create_file - Creates a file.
  * @filename: A pointer to the name of the file to create.
- * @txt_content: A pointer to a string to write to the file.
  *
  * Return: If the functn fails - -1.
  *         Otherwise - 1.
  */
-int create_file(const char *filename, char *text_content)
+int create_file(const char *filename)
 {
 	int fd, w, len = 0;
 
